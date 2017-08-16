@@ -1,3 +1,21 @@
+.drift:hover {
+    cursor: pointer;
+}
+
+/* Glow */
+
+.glow {
+    transition: all 0.4s ease-in-out;
+}
+
+.glowAnimate{
+   box-shadow: 0 0 0em 3px rgba(36, 143, 255, 0.4); 
+
+    // box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition: all 0.4s ease-in-out;
+}
+
+
 /* Slide */
 
 .slide {
@@ -16,6 +34,16 @@
 .slideAnimate {
     background-position:left bottom;
 }
+
+.bounce {
+    transition: all 0.25s ease;
+}
+
+.bounceAnimate {
+    transform: scale(0.97, 0.97);
+    transform-origin: bottom right;
+}
+
 
 /* Wiggle */
 .wiggleText {
@@ -39,13 +67,11 @@
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transform: scale(1.1, 1.1);
-    // transform: scale(1.03, 1.03);
+    // transform: scale(1.1, 1.1);
+    transform: scale(1.04, 1.04);
     transform-origin: center;
     display: inline-block;
 }
-
-
 
 
 /* Misc */
