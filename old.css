@@ -1,0 +1,100 @@
+// #drift {
+//     background: linear-gradient(to left, red 50%, blue 50%);
+//     background-size: 250% 100%;
+//     background-position:right bottom;
+//     transition:all 2s ease;
+// }
+
+// #drift:hover {
+//     background-position:left bottom;
+// }
+
+// #drift {
+//     background-image: linear-gradient(to left,
+//                       transparent,
+//                       transparent 50%,
+//                       #00c6ff 50%,
+//                       #00c6ff);
+//     background-position: 100% 0;
+//     background-size: 200% 100%;
+//     transition: all .25s ease-in;
+// }
+
+// #drift {
+//     transform: scale(1);
+//     transition: all 0.25s;
+// }
+
+// #drift:hover{
+//     transform: scale(2);
+// }
+
+#d{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.blue {
+    transform: scale(1, 1);
+    display: inline-block;
+}
+    
+.animate {
+    transform: scale(1.05, 1.05);
+    transform-origin: center;
+    display: inline-block;
+}
+
+// textarea, input, button, button:focus, span{ 
+//   text-decoration: none;
+//   outline:none;
+//   border: none;
+//   box-shadow: none;
+//   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+// }
+
+// *:focus {outline:none}
+*:focus {outline:none !important}
+
+// #d:hover{
+//     -webkit-transform: scale(1.2);
+// }
+
+// #drift:hover {
+//     background-position: 0 0;
+//     color:#333;
+// }
+
+// #drift {
+//     position: relative;
+//     margin:0;
+//     padding:0;
+//     border-top:1px solid #4D0000;
+//     border-bottom:1px solid white;
+//     z-index: 5;
+//     padding: 0 0 0 20px;
+//     color:white;
+//     background:#600;
+//     width: 180px;
+// } 
+
+// #drift:after {
+//     content:"";
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0;
+//     color: #fff;
+//     height: 100%;
+//     background: yellow;
+//     opacity: 0;
+// }
+
+// #drift:hover:after {
+//     width: 100%;
+//     opacity: 1;
+//     transition: 500ms;
+//     -webkit-transition: 500ms;
+// }
