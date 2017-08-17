@@ -1,3 +1,9 @@
 body {
-  font-family: 'Open Sans'
+  // font-family: 'Open Sans';
+  font: 24px/1.4 "RobotoDraft", sans-serif;
+}
+
+.btn {
+  background-color: #E1E1E1;
+  border-radius: 5px;
 }
